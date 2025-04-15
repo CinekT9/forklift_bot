@@ -1,0 +1,30 @@
+###COMMANDS:
+Access ros2 in cmd: 
+call C:\dev\ros2\local_setup.bat
+
+##DEBUGGING
+Check active nodes (add -t for topic type):
+ros2 node list
+
+Check what a node is doing:
+ros2 node info
+
+Check who is subscribed or publishing to a topic:
+ros2 topic info <topic>
+
+Check how frequently data is published into a topic:
+ros2 topic hz <topic>
+
+Check what the datastructure of a message is:
+ros2 interface show <topic type>
+
+Graph the nodes and their relationships:
+rqt_graph
+
+##EXECUTE
+Run a node:
+ros2 run <packagename> <nodename>
+
+Manually send a message to a topic (--once -w 2 for once, wait 2 subs):
+ros2 topic pub <topic_name> <msg_type> '<args>'
+ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
