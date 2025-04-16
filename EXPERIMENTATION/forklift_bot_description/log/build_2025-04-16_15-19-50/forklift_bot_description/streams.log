@@ -1,0 +1,43 @@
+[0.008s] Invoking command in '/home/cinek/forklift_bot_description/build/forklift_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/cinek/forklift_bot_description/build/forklift_bot_description -- -j16 -l16
+[0.029s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.250s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.334s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.334s] -- Configured cppcheck include dirs: 
+[0.335s] -- Configured cppcheck exclude dirs and/or files: 
+[0.335s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.335s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.336s] -- Added test 'lint_cmake' to check CMake code style
+[0.337s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.342s] -- Added test 'uncrustify' to check C / C++ code style
+[0.342s] -- Configured uncrustify additional arguments: 
+[0.342s] -- Added test 'xmllint' to check XML markup files
+[0.343s] -- Configuring done (0.3s)
+[0.346s] -- Generating done (0.0s)
+[0.347s] -- Build files have been written to: /home/cinek/forklift_bot_description/build/forklift_bot_description
+[0.365s] Invoked command in '/home/cinek/forklift_bot_description/build/forklift_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/cinek/forklift_bot_description/build/forklift_bot_description -- -j16 -l16
+[0.373s] Invoking command in '/home/cinek/forklift_bot_description/build/forklift_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/cinek/forklift_bot_description/build/forklift_bot_description
+[0.379s] -- Install configuration: ""
+[0.379s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/src
+[0.379s] -- Installing: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/include
+[0.380s] -- Installing: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/include/forklift_bot_description
+[0.380s] -- Installing: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/include/forklift_bot_description/forklift.urdf
+[0.380s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/launch
+[0.380s] -- Installing: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/launch/display.launch.py
+[0.380s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/rviz
+[0.380s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/rviz/forklift.rviz
+[0.380s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/ament_index/resource_index/package_run_dependencies/forklift_bot_description
+[0.381s] -- Installing: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/ament_index/resource_index/parent_prefix_path/forklift_bot_description
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/ament_prefix_path.sh
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/ament_prefix_path.dsv
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/path.sh
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/path.dsv
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.bash
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.sh
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.zsh
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.dsv
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/package.dsv
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/ament_index/resource_index/packages/forklift_bot_description
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/cmake/forklift_bot_descriptionConfig.cmake
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/cmake/forklift_bot_descriptionConfig-version.cmake
+[0.381s] -- Up-to-date: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/package.xml
+[0.382s] Invoked command in '/home/cinek/forklift_bot_description/build/forklift_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/cinek/forklift_bot_description/build/forklift_bot_description

@@ -1,0 +1,4 @@
+Invoking command in '/home/cinek/forklift_bot_description/build/forklift_bot_description': /usr/bin/cmake --build /home/cinek/forklift_bot_description/build/forklift_bot_description -- -j16 -l16
+Invoked command in '/home/cinek/forklift_bot_description/build/forklift_bot_description' returned '0': /usr/bin/cmake --build /home/cinek/forklift_bot_description/build/forklift_bot_description -- -j16 -l16
+Invoking command in '/home/cinek/forklift_bot_description/build/forklift_bot_description': /usr/bin/cmake --install /home/cinek/forklift_bot_description/build/forklift_bot_description
+Invoked command in '/home/cinek/forklift_bot_description/build/forklift_bot_description' returned '0': /usr/bin/cmake --install /home/cinek/forklift_bot_description/build/forklift_bot_description

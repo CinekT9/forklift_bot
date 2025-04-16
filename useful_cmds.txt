@@ -2,6 +2,9 @@
 Access ros2 in cmd: 
 call C:\dev\ros2_jazzy\local_setup.bat
 
+File permissions:
+sudo chmod 777 <path>
+
 ##DEBUGGING
 View logs:
 ros2 run rqt_console rqt_console

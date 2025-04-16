@@ -1,0 +1,4 @@
+source;share/forklift_bot_description/local_setup.bash
+source;share/forklift_bot_description/local_setup.dsv
+source;share/forklift_bot_description/local_setup.sh
+source;share/forklift_bot_description/local_setup.zsh
