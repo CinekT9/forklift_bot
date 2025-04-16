@@ -1,13 +1,28 @@
 ###COMMANDS:
 Access ros2 in cmd: 
-call C:\dev\ros2\local_setup.bat
+call C:\dev\ros2_jazzy\local_setup.bat
 
 ##DEBUGGING
+View logs:
+ros2 run rqt_console rqt_console
+
 Check active nodes (add -t for topic type):
 ros2 node list
 
 Check what a node is doing:
 ros2 node info
+
+Check parameters of a node:
+ros2 param list
+
+Check parameter type and value:
+ros2 param get <node_name> <parameter_name>
+
+Set parameter value:
+ros2 param set <node_name> <parameter_name> <value>
+
+Print all parameter values of a node:
+ros2 param dump <node_name>
 
 Check who is subscribed or publishing to a topic:
 ros2 topic info <topic>
