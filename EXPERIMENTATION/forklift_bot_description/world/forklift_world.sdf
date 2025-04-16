@@ -111,7 +111,7 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <model name='unit_box'>
-      <pose>1.51271 -0.181418 0.5 0 -0 0</pose>
+      <pose>2 -0.181418 0.5 0 -0 0</pose>
       <link name='link'>
         <inertial>
           <mass>1</mass>

@@ -51,7 +51,7 @@ def generate_launch_description():
         'world': 'forklift_world',
         'topic': '/robot_description',
         'entity_name': 'forklift_bot',
-        'z':'0.15'
+        'z':'0.175'
     }.items(),
     )
 
