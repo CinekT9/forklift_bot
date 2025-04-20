@@ -1,0 +1,13 @@
+controller_manager:
+  ros_parameters:
+    update_rate: 1000 #In Hz
+
+lift_joints_controller:
+  type: position_controllers/JointGroupPositionController
+  joint: 
+    - liftlconnector_joint
+    - liftrconnector_joint
+  pid:
+    p: 100.0
+    i: 0.01
+    d: 10.0

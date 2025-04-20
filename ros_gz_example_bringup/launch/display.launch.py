@@ -32,6 +32,12 @@ def generate_launch_description():
         output='screen',
         arguments=['-d', LaunchConfiguration('rvizconfig')],
     )
+    lift_node = Node(
+        package='controller_manager',
+        executables='spawner',
+        arguments=['lift_joints_controller']
+    )
+
     gz_server = GzServer(
     world_sdf_file=world_path,
     container_name='ros_gz_container',
@@ -51,7 +57,7 @@ def generate_launch_description():
         'world': 'forklift_world',
         'topic': '/robot_description',
         'entity_name': 'forklift_bot',
-        'z':'0.175'
+        'z':'0.2'
     }.items(),
     )
 
@@ -64,5 +70,6 @@ def generate_launch_description():
         ros_gz_bridge,
         spawn_entity,
         robot_state_publisher_node,
+        lift_node,
         rviz_node
     ])
