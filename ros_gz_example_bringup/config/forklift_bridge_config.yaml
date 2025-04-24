@@ -26,11 +26,11 @@
   direction: GZ_TO_ROS
 
 # Topic subscribed to by Lift joint plugin
-- ros_topic_name: "/lift"
-  gz_topic_name: "/lift"
-  ros_type_name: "std_msgs/msg/Float64"
-  gz_type_name: "gz.msgs.Double"
-  direction: ROS_TO_GZ
+# - ros_topic_name: "/lift"
+#   gz_topic_name: "/lift"
+#   ros_type_name: "std_msgs/msg/Float64"
+#   gz_type_name: "gz.msgs.Double"
+#   direction: ROS_TO_GZ
 
 # Topic subscribed to by DiffDrive plugin
 - ros_topic_name: "/demo/cmd_vel"

@@ -5,6 +5,9 @@ call C:\dev\ros2_jazzy\local_setup.bat
 File permissions:
 sudo chmod 777 <path>
 
+###Python modules path:
+/opt/ros/jazzy/lib/python3.12/site-packages
+
 ##DEBUGGING
 View logs:
 ros2 run rqt_console rqt_console

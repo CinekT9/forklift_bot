@@ -1,10 +1,11 @@
 from launch import LaunchDescription
 from ament_index_python.packages import get_package_share_directory
-from launch.actions import DeclareLaunchArgument, ExecuteProcess
+from launch.actions import DeclareLaunchArgument, ExecuteProcess, RegisterEventHandler
 from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import Command, LaunchConfiguration
 from launch_ros.actions import Node
 from launch_ros.substitutions import FindPackageShare
+from launch.event_handlers import OnProcessExit
 from ros_gz_sim.actions import GzServer
 from ros_gz_sim.actions.gz_spawn_model import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
@@ -18,6 +19,7 @@ def generate_launch_description():
     bridge_config_path = os.path.join(pkg_share, 'config', 'forklift_bridge_config.yaml')
     world_path = os.path.join(pkg_share, 'world', 'forklift_world.sdf')
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
+    robot_controllers = os.path.join(pkg_share, 'config', 'lift_controller.yaml')
 
     robot_state_publisher_node = Node(
     package='robot_state_publisher',
@@ -32,10 +34,21 @@ def generate_launch_description():
         output='screen',
         arguments=['-d', LaunchConfiguration('rvizconfig')],
     )
-    lift_node = Node(
+
+    joint_state_broadcaster_spawner = Node(
         package='controller_manager',
-        executables='spawner',
-        arguments=['lift_joints_controller']
+        executable='spawner',
+        arguments=['joint_state_broadcaster',
+                   ],
+    )
+    joint_trajectory_controller_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=[
+            'joint_trajectory_controller',
+            '--param-file',
+            robot_controllers,
+            ],
     )
 
     gz_server = GzServer(
@@ -70,6 +83,8 @@ def generate_launch_description():
         ros_gz_bridge,
         spawn_entity,
         robot_state_publisher_node,
-        lift_node,
+        joint_state_broadcaster_spawner,
+        joint_trajectory_controller_spawner,
+        # lift_node,
         rviz_node
     ])
