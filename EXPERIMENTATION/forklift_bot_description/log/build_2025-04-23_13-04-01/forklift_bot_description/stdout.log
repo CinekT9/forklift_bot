@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/include/forklift_bot_description/forklift.sdf
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/include/forklift_bot_description/forklift.urdf
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/bringup/display.launch.py
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/bringup/display.launch.py:Zone.Identifier
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/rviz/forklift.rviz
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/world/forklift_world.sdf
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/world/forklift_world.sdf:Zone.Identifier
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/world/my_world.sdf:Zone.Identifier
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/config/forklift_bridge_config.yaml
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/config/lift_controller.yaml
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/ament_index/resource_index/package_run_dependencies/forklift_bot_description
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/ament_index/resource_index/parent_prefix_path/forklift_bot_description
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/path.sh
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/environment/path.dsv
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.bash
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.sh
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.zsh
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/local_setup.dsv
+-- Symlinking: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/package.dsv
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/ament_index/resource_index/packages/forklift_bot_description
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/cmake/forklift_bot_descriptionConfig.cmake
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/cmake/forklift_bot_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/cinek/forklift_bot_description/install/forklift_bot_description/share/forklift_bot_description/package.xml

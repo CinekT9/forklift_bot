@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "src" "include" "launch" "rviz" "world" "config" "DESTINATION" "share/forklift_bot_description")
-ament_cmake_symlink_install_directory("/home/cinek/forklift_bot_description" DIRECTORY "src" "include" "launch" "rviz" "world" "config" "DESTINATION" "share/forklift_bot_description")
+# install(DIRECTORY "src" "include" "bringup" "rviz" "world" "config" "DESTINATION" "share/forklift_bot_description")
+ament_cmake_symlink_install_directory("/home/cinek/forklift_bot_description" DIRECTORY "src" "include" "bringup" "rviz" "world" "config" "DESTINATION" "share/forklift_bot_description")
 
 # install(FILES "/home/cinek/forklift_bot_description/build/forklift_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/forklift_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/cinek/forklift_bot_description" FILES "/home/cinek/forklift_bot_description/build/forklift_bot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/forklift_bot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

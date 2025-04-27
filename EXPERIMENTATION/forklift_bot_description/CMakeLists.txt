@@ -11,7 +11,7 @@ find_package(ament_cmake REQUIRED)
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
 install(
-  DIRECTORY src include launch rviz world config
+  DIRECTORY src include bringup rviz world config
   DESTINATION share/${PROJECT_NAME}
 )
 if(BUILD_TESTING)
